@@ -18,13 +18,13 @@ time.sleep(5)  # Wait for pop-up to load
 email = driver.find_element(By.XPATH, "//input[@id='email']")
 email.click()
 email.clear()
-email.send_keys("7585831166")
+email.send_keys("##########")
 time.sleep(1)
 
 #Enter facebook password
 password = driver.find_element(By.XPATH, "//input[@type='password']")
 password.clear()
-password.send_keys("DoGesh$007")
+password.send_keys("##########")
 time.sleep(3)
 
 #To see the password entered is correct or not
