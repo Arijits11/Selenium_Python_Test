@@ -32,7 +32,5 @@ sign_in = driver.find_element(By.XPATH, "//input[@id='signInSubmit']").click()
 time.sleep(3)
 
 
-
-
 time.sleep(10)
 driver.quit()
